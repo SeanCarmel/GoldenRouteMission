@@ -1,5 +1,5 @@
 # GoldenRouteMission
-Instructions for running the server:
+## Instructions for running the server:
 1. Make sure all the required files are in the server folder:
   • app.py
   • requirements.txt
@@ -20,7 +20,7 @@ Instructions for running the server:
 
   flask run --port=5001 --debug
 
-Instructions for running the client:
+## Instructions for running the client:
 1. Make sure there all the required files are in the client folder:
   •	Index.html
   •	package.json
