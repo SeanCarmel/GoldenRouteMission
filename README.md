@@ -1,10 +1,10 @@
 # GoldenRouteMission
-הוראות להרצת השרת:
-1.	ודאו שיש את כל הקבצים הנדרשים בתיקייה server:
-•	app.py
-•	requirements.txt
+Instructions for running the server:
+1. Make sure all the required files are in the server folder:
+• app.py
+• requirements.txt
 
-2.	פתחו טרמינל (view\tool windows\terminal), בצעו בו את הפקודות הבאות בסדר הבא:
+2. Open a terminal (in PyCharm: view\tool windows\terminal), execute the following commands in the following order:
 
 cd server
 
@@ -20,20 +20,20 @@ pip install -r requirements.txt
 
 flask run --port=5001 --debug
 
-הוראות להרצת הלקוח:
-1.	ודאו שיש את הקבצים הנדרשים בתיקייה client:
+Instructions for running the client:
+1. Make sure there all the required files are in the client folder:
 •	Index.html
 •	package.json
 •	vite.config.js
-•	תיקיית src שבה:
-•	App.vue
-•	main.js
-•	תיקיית components בתוך תיקיית src שבה:
-•	calculator.vue
-•	תיקיית router בתוך תיקיית src שבה:
-•	index.js
+•	src folder with:
+  •	App.vue
+  •	main.js
+  •	components folder (inside src folder) with:
+    •	calculator.vue
+  •	router folder (inside src folder) with:
+    •	index.js
 
-2.	פתחו טרמינל חדש (Ctrl+Shift+T), בצעו בו את הפקודות הבאות בסדר הבא:
+2. Open a new terminal (Ctrl+Shift+T), execute the following commands in the following order:
 
 cd client
 
